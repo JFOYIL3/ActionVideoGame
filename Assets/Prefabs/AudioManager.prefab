@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2711817457961878907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2711817457961878905}
+  - component: {fileID: 2711817457961878906}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2711817457961878905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711817457961878907}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9413624, y: -0.5818823, z: -7.088287}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2711817457961878906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711817457961878907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e952f1f984aaa41be34524df28e3fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Main Music
+    clip: {fileID: 8300000, guid: 358c72b65f1db4f238886aec03017666, type: 3}
+    volume: 0.292
+    pitch: 0.79
+    source: {fileID: 0}
+  - name: Goblin Hit
+    clip: {fileID: 8300000, guid: 2296b624747f3554a87b64c963e0944b, type: 3}
+    volume: 0.071
+    pitch: 1
+    source: {fileID: 0}
+  - name: Goblin Death
+    clip: {fileID: 8300000, guid: 48ffe613343a2634fb7da6fe22df86bc, type: 3}
+    volume: 0.071
+    pitch: 1
+    source: {fileID: 0}
+  - name: Death Music
+    clip: {fileID: 8300000, guid: ca1dcf8982e7f8c449af91ad7e985568, type: 3}
+    volume: 0.292
+    pitch: 1
+    source: {fileID: 0}
+  - name: Fireball
+    clip: {fileID: 8300000, guid: ea2409bf328cd524589a0181c75badd8, type: 3}
+    volume: 0.079
+    pitch: 1
+    source: {fileID: 0}

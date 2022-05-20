@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2021-11-03T15:28:06.557-07:00
+  initializedAtString: 2021-11-03T15:28:06.549-07:00
+  localBranches:
+  - name: JFoyilBranch
+    tracking: origin/JFoyilBranch
+  - name: main
+    tracking: origin/main
+  remoteBranches:
+  - name: origin/HEAD
+    tracking: '[None]'
+  - name: origin/JFoyilBranch
+    tracking: '[None]'
+  - name: origin/main
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/Game-Project-Team/2D-Platform-Game.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - JFoyilBranch
+    - main
+    values:
+    - name: JFoyilBranch
+      remote:
+        name: origin
+        url: https://github.com/Game-Project-Team/2D-Platform-Game.git
+      trackingBranch: JFoyilBranch
+    - name: main
+      remote:
+        name: origin
+        url: https://github.com/Game-Project-Team/2D-Platform-Game.git
+      trackingBranch: main
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+      - JFoyilBranch
+      - main
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/Game-Project-Team/2D-Platform-Game.git
+        trackingBranch: 
+      - name: JFoyilBranch
+        remote:
+          name: origin
+          url: https://github.com/Game-Project-Team/2D-Platform-Game.git
+        trackingBranch: 
+      - name: main
+        remote:
+          name: origin
+          url: https://github.com/Game-Project-Team/2D-Platform-Game.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/Game-Project-Team/2D-Platform-Game.git
